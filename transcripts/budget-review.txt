@@ -1,0 +1,31 @@
+[10:02] MARIA: Welcome to the Q3 budget review. We need to decide where the remaining $120K of the budget goes. Finance wants a decision by end of week.
+
+[10:05] TOM: From sales, I strongly recommend we put $50K into the enterprise pilot program. We have three prospects who said a funded pilot would get them to sign.
+
+[10:09] MARIA: That's a compelling case. But engineering asked for $40K for the security audit before the enterprise deals can even close. We can't sell to enterprises without SOC 2.
+
+[10:14] LISA: I agree with Maria. The security audit is a blocker for enterprise revenue. If we skip it, the pilot money is wasted.
+
+[10:18] TOM: Hmm, good point. I hadn't thought of it that way. What about marketing? They wanted $30K for the fall campaign.
+
+[10:22] LISA: I ran the numbers on the fall campaign. The projected ROI is 1.2x, which is below our 2x threshold. I don't think we should fund it this quarter.
+
+[10:27] MARIA: Okay, let's decide. I propose we allocate $40K to the security audit and $50K to the enterprise pilot program. That leaves $30K in reserve for Q4.
+
+[10:31] TOM: I can live with that. The reserve gives us flexibility if a prospect needs something custom.
+
+[10:34] LISA: Agreed. We decided to allocate $40K to the security audit, $50K to the enterprise pilot program, and keep $30K in reserve.
+
+[10:38] MARIA: Decision recorded: $40K security audit, $50K enterprise pilot, $30K reserve. Tom, you will draft the pilot program terms and send them to legal by Thursday?
+
+[10:42] TOM: Yes, I will draft the pilot terms and send them to legal by Thursday.
+
+[10:45] MARIA: Lisa, you shall coordinate with the audit firm and get us a start date by next Monday?
+
+[10:49] LISA: I will coordinate with the audit firm and confirm a start date by Monday.
+
+[10:52] MARIA: And I need to send the final budget memo to finance. I will send the budget memo to finance by Friday.
+
+[10:55] TOM: One risk to flag: if the audit finds major issues, the $30K reserve might not cover remediation. We should revisit in two weeks.
+
+[10:59] MARIA: Noted. We will revisit the reserve in two weeks after the audit kickoff. Meeting adjourned — thanks everyone.

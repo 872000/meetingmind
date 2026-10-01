@@ -1,0 +1,37 @@
+[00:00:05] ALEX: Good morning everyone, thanks for joining. The goal today is to finalize the launch plan for the new customer dashboard. We need to leave this room with owners and dates for every workstream.
+
+[00:01:12] PRIYA: Thanks, Alex. From engineering, the dashboard backend is basically done. What remains is the frontend polish and the load testing. I estimate two weeks of work for the polish, assuming we don't change the design again.
+
+[00:02:03] ALEX: Understood. Let's not reopen the design — we locked it last sprint. Sam, what's the status on load testing?
+
+[00:02:20] SAM: I started the load test scripts last week. The problem is we don't have production-like data yet. I need the data engineering team to provide a sanitized dump before I can run the full suite.
+
+[00:03:10] ALEX: Okay. Priya, can your team provide the sanitized data dump to Sam by Friday? That unblocks the whole testing workstream.
+
+[00:03:35] PRIYA: Yes, we can do that. I'll have Daniel put together the sanitization script, and we will deliver the dump by Friday EOD.
+
+[00:04:02] SAM: Great. Once I have it, I need three business days to run the suite and analyze results. If we find issues, we will need another sprint for fixes.
+
+[00:04:40] ALEX: Noted. Now the big question: launch date. Marketing wants to announce at the customer summit. Priya, is October 20th realistic?
+
+[00:05:15] PRIYA: It's tight but doable if nothing slips. I would rather commit to October 27th to have a buffer for the load test findings.
+
+[00:05:48] ALEX: I hear you. Let me make the call: we will go with October 27th as the launch date. That gives us the buffer, and marketing can still announce it as "late October" at the summit.
+
+[00:06:10] SAM: I agree with that. A slipped launch is worse than a later one.
+
+[00:06:25] PRIYA: Agreed. We will communicate October 27th to marketing today.
+
+[00:06:40] ALEX: Decision made: launch date is October 27th. Next — pricing. Marketing proposed $29 per seat. Engineering, any concerns about cost at that price?
+
+[00:07:15] PRIYA: At $29 per seat, our infrastructure cost is covered as long as we stay under 500 concurrent users per customer. Beyond that we need autoscaling, which is on the roadmap but not for launch.
+
+[00:07:55] ALEX: Fine. We decided on $29 per seat pricing. Sam, you will draft the pricing FAQ for support by next Wednesday?
+
+[00:08:10] SAM: Yes, I'll send the pricing FAQ draft to the support team by Wednesday.
+
+[00:08:30] ALEX: One more thing — the beta customer feedback. We have ten beta customers. Priya, you will collect their feedback and send a summary to me by Monday?
+
+[00:08:55] PRIYA: I will collect beta feedback and send you the summary by Monday. I need access to the survey tool though.
+
+[00:09:20] ALEX: I'll grant you access to the survey tool today. Let's wrap up. To recap: launch October 27th, $29 per seat, data dump by Friday, load test results next week, pricing FAQ by Wednesday, beta feedback summary by Monday. Good meeting, everyone.

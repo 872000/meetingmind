@@ -1,0 +1,37 @@
+DANA: Alright, sprint retrospective time. Let's keep it honest and quick. What went well this sprint?
+
+JORDAN: I'll start. The code reviews went well — turnaround was under four hours on average. I think the new review checklist really helped.
+
+CASEY: Agreed. And the deployment on Thursday was the smoothest we've had. Zero rollbacks.
+
+DANA: Great, let's keep the checklist and the deploy process. Now, what didn't go well?
+
+JORDAN: The QA handoff was painful. I waited two days for test environments because the staging credentials expired and nobody noticed.
+
+CASEY: Same here. Also, I felt like standup ran too long every day. We kept going into deep technical discussions instead of quick updates.
+
+DANA: Fair points. We decided to move deep technical discussions to a separate parking-lot slot right after standup, so standup stays under fifteen minutes.
+
+JORDAN: I like that. We also need someone to own the staging credentials. They keep expiring and blocking everyone.
+
+DANA: Good call. Casey, can you own the staging credentials and set up a renewal reminder?
+
+CASEY: Sure. I will take ownership of staging credentials and set a calendar reminder for renewal before they expire again.
+
+DANA: Also on QA handoff — Jordan, you mentioned waiting two days. What would fix that?
+
+JORDAN: I think we should require the test environment to be verified the day before QA starts. If it's not green, we don't start the handoff.
+
+DANA: We agreed: test environment must be verified green one day before QA handoff. Jordan, you will add that to the definition of done?
+
+JORDAN: Yes, I'll update the definition of done document by Friday.
+
+DANA: Anything else? Velocity was 32 points, slightly above our 30 average. Nice work everyone.
+
+CASEY: One thing — I noticed the sprint goal was vague. Can we write clearer sprint goals next planning?
+
+DANA: Absolutely. I will write a sharper sprint goal template and share it before next planning. Let's go with a one-sentence goal format.
+
+JORDAN: Sounds good. That wraps it up for me.
+
+DANA: Okay, retro done. Action items: Casey owns staging credentials, Jordan updates definition of done by Friday, and I will create the sprint goal template before next planning. Thanks everyone.

@@ -1,0 +1,2 @@
+# Runtime dependency: only matplotlib (charts). Everything else is stdlib.
+matplotlib==3.6.3

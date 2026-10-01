@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Generated demo output (regenerate with `python -m meetingmind.cli demo`)
+demo-output/
