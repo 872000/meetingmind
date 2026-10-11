@@ -97,3 +97,11 @@ def test_empty_inputs_do_not_crash():
     assert talk_time([]) == []
     assert extract_action_items([]) == []
     assert extract_decisions([]) == []
+
+
+def test_cli_reports_missing_transcript_cleanly():
+    """A missing transcript must exit 2, not raise FileNotFoundError."""
+    from meetingmind import cli
+
+    assert cli.main(["summarize", "no-such-transcript.txt"]) == 2
+    assert cli.main(["notes", "no-such-transcript.txt"]) == 2

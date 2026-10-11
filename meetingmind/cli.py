@@ -25,11 +25,21 @@ def _read(path: str) -> str:
         return f.read()
 
 
+def _existing_transcript(path: str) -> bool:
+    """Report a clean CLI error instead of a traceback for a missing file."""
+    if os.path.exists(path):
+        return True
+    print(f"error: '{path}' does not exist", file=sys.stderr)
+    return False
+
+
 def _title(path: str) -> str:
     return os.path.splitext(os.path.basename(path))[0].replace("-", " ").replace("_", " ").title()
 
 
 def cmd_summarize(args: argparse.Namespace) -> int:
+    if not _existing_transcript(args.transcript):
+        return 2
     raw = _read(args.transcript)
     utterances = parse_transcript(raw)
     sentences = [s.text for s in sentences_with_speakers(utterances)]
@@ -39,6 +49,8 @@ def cmd_summarize(args: argparse.Namespace) -> int:
 
 
 def cmd_notes(args: argparse.Namespace) -> int:
+    if not _existing_transcript(args.transcript):
+        return 2
     raw = _read(args.transcript)
     title = _title(args.transcript)
     report = analyze(raw, summary_sentences=args.sentences)
